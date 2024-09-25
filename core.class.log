@@ -2,75 +2,83 @@
   key: {
     remoteJid: '51907979796@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0DD42B3C59EF8CD1BA6',
+    id: '3EB039B33610CE0735C875',
     participant: undefined
   },
-  messageTimestamp: 1727299976,
+  messageTimestamp: 1727304994,
   pushName: 'Rody',
   broadcast: false,
   message: Message {
-    conversation: 'perros',
+    conversation: 'menu',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'perros',
+  body: 'menu',
   from: '51907979796'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b3e9f0d6-0ab1-4c3f-a33c-423f7d1d1119',
-  keyword: 'key_13c67401-8645-469d-8582-df174bfeda34',
-  answer: 'Este es el flujo welcome!',
+  ref: 'ans_319fb33e-d614-4595-86d6-e61ed278ce77',
+  keyword: 'key_eb92e1b1-dec5-496f-b1a4-ea39841ecfb8',
+  answer: 'Selecciona una opción:\r\n' +
+    '\r\n' +
+    'Opción 1 - Menu\r\n' +
+    'Opción 2 - Reservar Mesa\r\n' +
+    'Opción 3 - Hacer Consulta\r\n' +
+    '\r\n' +
+    'Opción 0 - Salir',
   options: {
     media: null,
     buttons: [],
-    capture: false,
+    capture: true,
     child: null,
-    delay: 1000,
+    delay: 0,
     idle: null,
     ref: null,
     nested: [],
     keyword: {},
     callback: true
   },
-  refSerialize: '6c9a096862f65db6221e04ab31a2dc84'
+  refSerialize: 'bf6485fb6985bb71da844a000fb65ab2'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '51907979796@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0E2394748E202DE85F2',
+    id: '3EB07CC2FA47109291878B',
     participant: undefined
   },
-  messageTimestamp: 1727299981,
+  messageTimestamp: 1727304996,
   pushName: 'Rody',
   broadcast: false,
   message: Message {
-    conversation: 'casas',
+    conversation: '3',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'casas',
+  body: '3',
   from: '51907979796'
 }
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_b3e9f0d6-0ab1-4c3f-a33c-423f7d1d1119',
-  keyword: 'key_13c67401-8645-469d-8582-df174bfeda34',
-  answer: 'Este es el flujo welcome!',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 1000,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
+[handleMsg]:  {
+  key: {
+    remoteJid: '51907979796@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0509FC228588523624D',
+    participant: undefined
   },
-  refSerialize: '6c9a096862f65db6221e04ab31a2dc84'
+  messageTimestamp: 1727304998,
+  pushName: 'Rody',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '51907979796'
 }

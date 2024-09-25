@@ -1,0 +1,7 @@
+Selecciona una opción:
+
+Opción 1 - Menu
+Opción 2 - Reservar Mesa
+Opción 3 - Hacer Consulta
+
+Opción 0 - Salir
